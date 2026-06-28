@@ -1,0 +1,23 @@
+# Online APK Derleme - GitHub Actions
+
+Bu sürümde `.github/workflows/build-apk.yml` dosyası eklidir.
+
+## Kullanım
+
+1. GitHub'da yeni bir repository oluştur.
+2. Bu ZIP'i aç ve içindeki `CompassWarsAndroid-v11-github-actions` klasöründeki dosyaları repo'ya yükle.
+3. GitHub'da repo sayfasında **Actions** sekmesine gir.
+4. **Build Android APK** workflow'unu seç.
+5. **Run workflow** de.
+6. İş bitince workflow detayında **Artifacts** bölümünden:
+   - `CompassWars-debug-apk`
+   dosyasını indir.
+7. İçinden çıkan `app-debug.apk` dosyasını Android telefona kopyalayıp kur.
+
+## Not
+
+APK debug imzalı olur. Telefonda kurulum için:
+- Bilinmeyen kaynaklardan yüklemeye izin ver.
+- Dosyaya dokunup kur.
+
+Google Play için ayrıca release imzalı APK/AAB gerekir.

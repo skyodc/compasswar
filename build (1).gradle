@@ -1,0 +1,11 @@
+APK almak için:
+
+1. Android Studio kur.
+2. Bu klasörü Android Studio ile aç.
+3. Sağ üstte Gradle Sync bitmesini bekle.
+4. Menüden:
+   Build > Build Bundle(s) / APK(s) > Build APK(s)
+5. APK çıktısı:
+   app/build/outputs/apk/debug/app-debug.apk
+
+Bu ortamda Android SDK/Gradle olmadığı için APK burada derlenemedi; proje APK üretmeye hazırdır.
